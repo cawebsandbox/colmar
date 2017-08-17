@@ -1,0 +1,102 @@
+html {
+  font-size: 16px;
+}
+
+header {
+  height: 4rem;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+/*.main-container {
+  max-width: 75rem;
+  background-color: darkgrey;
+  margin: 0 auto;
+  height: 30rem;
+}*/
+
+header .colmar-title {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  height: 3rem;
+}
+
+header img {
+  height: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+header nav{
+  display: flex;
+}
+
+header ul{
+  display: flex;
+}
+
+header li {
+  font-size: 1.25rem;
+  margin-left: 1rem;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.banner {
+  padding: 3rem 2rem;
+  background-color: lightgrey;
+  display: flex;
+}
+
+.banner-img {
+  width: 60%;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.banner-text {
+  width: 40%;
+  margin: auto 0 auto 4rem;
+  color: #3F3F3F;
+}
+
+.banner-text h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.banner-text h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.banner-text .banner-btn {
+  color: lightgrey;
+  background-color: #3F3F3F;
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.banner-text .banner-btn p {
+  font-size: 2rem;
+}
