@@ -3,24 +3,25 @@ html {
 }
 
 header {
+  background-color: white;
   height: 4rem;
-  background-color: green;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.5rem;
+  position: fixed;
+  z-index: 10;
 }
 
-/*.main-container {
-  max-width: 75rem;
-  background-color: darkgrey;
-  margin: 0 auto;
-  height: 30rem;
-}*/
+.main-container {
+  position: relative;
+  top: 4rem;
+}
 
 header .colmar-title {
   display: flex;
   align-items: center;
+  margin-left: 1.5rem;
 }
 
 header .logo {
@@ -41,6 +42,7 @@ header h1 {
 
 header nav{
   display: flex;
+  margin-right: 1.5rem;
 }
 
 header ul{
