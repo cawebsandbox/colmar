@@ -1,6 +1,18 @@
 html {
   font-size: 16px;
+  color: #454545;
 }
+
+
+
+.container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+/*Header Section*/
 
 header {
   background-color: white;
@@ -54,11 +66,8 @@ header li {
   margin-left: 1rem;
 }
 
-.container {
-  width: 80%;
-  display: flex;
-  margin: 0 auto;
-}
+
+/*Banner Section*/
 
 .banner {
   padding: 3rem 2rem;
@@ -101,4 +110,82 @@ header li {
 
 .banner-text .banner-btn p {
   font-size: 2rem;
+}
+
+/*Information Section*/
+/*.information {
+  margin: 2rem 0;
+}*/
+
+.information-main {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid lightgrey;
+}
+
+.information-main img {
+  width: 100%;
+  height: auto;
+}
+
+.article-main-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.article-main-text p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.article-main-text p:first-of-type {
+  margin: 1.5rem 0 2rem 0;
+}
+
+.article-main-author {
+  margin-top: 3rem;
+}
+
+.information-sub {
+  width: 40%;
+  height:auto;
+  margin: 2rem 0;
+}
+
+.article {
+  width: 100%;
+  display: flex;
+  padding: 1rem 5%;
+  margin-bottom: 2px;
+  border: 1px solid lightgrey;
+}
+
+.article-img {
+  width: 30%;
+  height: auto;
+}
+
+.article-img img {
+  width: 100%;
+}
+
+.article-text {
+  width: 60%;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: auto;
+}
+
+.article-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.article-text a {
+  color: #60BCF2;
+}
+
+.article-active {
+  background-color: lightgrey;
 }
