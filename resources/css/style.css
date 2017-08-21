@@ -287,3 +287,19 @@ header li {
 .thesis-articles {
   width: 40%;
 }
+
+footer {
+  border-top: 1px solid #DDD;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .links a {
+  margin-right: 1rem;
+  color: #454545;
+}
+
+footer .links a:hover {
+  color: #000;
+}
