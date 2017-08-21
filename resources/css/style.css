@@ -189,3 +189,57 @@ header li {
 .article-active {
   background-color: lightgrey;
 }
+
+/*Course Section*/
+.data {
+  background-color: lightgrey;
+}
+
+.data .container {
+  flex-direction: column;
+}
+
+.data-title {
+  margin: 2rem 0;
+}
+
+.data-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+  /*align-content: space-between;*/
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+
+.course {
+  background-color: white;
+  width: 30%;
+}
+
+.course-img img{
+  width: 100%;
+}
+
+.course-text {
+  margin: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.course-text p {
+  font-size: 1.5rem;
+  color: #999;
+}
+
+.course-text p:first-of-type {
+  margin: 0.5rem 0;
+}
