@@ -3,14 +3,12 @@ html {
   color: #454545;
 }
 
-
-
+/*Container class used for large screens so that everything isn't so big*/
 .container {
   width: 80%;
   display: flex;
   margin: 0 auto;
 }
-
 
 /*Header Section*/
 
@@ -66,6 +64,27 @@ header li {
   margin-left: 1rem;
 }
 
+header .colmar-title-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header .colmar-title {
+    display: none;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header .colmar-title-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 2rem;
+  }
+}
+
 
 /*Banner Section*/
 
@@ -81,6 +100,7 @@ header li {
 
 .banner-img img {
   width: 100%;
+  max-width: 60rem;
 }
 
 .banner-text {
