@@ -68,7 +68,7 @@ header .colmar-title-mobile {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1250px) {
   header .colmar-title {
     display: none;
   }
@@ -132,11 +132,40 @@ header .colmar-title-mobile {
   font-size: 2rem;
 }
 
-/*Information Section*/
-/*.information {
-  margin: 2rem 0;
-}*/
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+  .banner {
+    padding: 0;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-text {
+    /*padding: 2rem 1rem;*/
+    margin: 0;
+    width: 100%;
+  }
+  .banner-text h1 {
+    font-size: 3rem;
+    margin: 2rem 1rem;
+  }
+  .banner-text h2 {
+    font-size: 2rem;
+    margin: 0 1rem 1.5rem 1rem;
+  }
+  .banner-text .banner-btn {
+    margin: 0 1rem 2rem 1rem;
+    width: auto;
+  }
+}
 
+/*Information Section*/
 .information-main {
   width: 60%;
   padding: 2rem 1.5rem;
