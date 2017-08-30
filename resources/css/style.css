@@ -14,7 +14,7 @@ html {
 
 header {
   background-color: white;
-  height: 8rem;
+  height: 4rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -69,6 +69,11 @@ header .colmar-title-mobile {
 }
 
 @media only screen and (max-width: 1250px) {
+  header {
+    height: 8rem;
+
+  }
+
   header .colmar-title {
     display: none;
   }
@@ -82,12 +87,13 @@ header .colmar-title-mobile {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin: 0 2rem;
   }
 
   header .colmar-title-mobile img {
-    width: 15%;
+    width: 4rem;
+    margin: auto 1.5rem;
   }
+
 }
 
 
