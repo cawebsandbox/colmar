@@ -371,6 +371,9 @@ header .colmar-title-mobile {
     border-top: 1px solid lightgrey;
     margin-top: 0.5rem;
   }
+  .data-title {
+    font-size: 4rem;
+  }
   .courses {
     display: none;
   }
@@ -381,8 +384,8 @@ header .colmar-title-mobile {
     display: block;
     background-color: lightgrey;
     padding: 1rem 1rem 1.5rem 1rem;
-    margin-bottom: 0.5rem;
-    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
     font-weight: bold;
     color: #454545;
   }
