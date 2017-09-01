@@ -166,11 +166,11 @@ header .colmar-title-mobile {
     width: 100%;
   }
   .banner-text h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 2rem 1rem;
   }
   .banner-text h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0 1rem 1.5rem 1rem;
   }
   .banner-text .banner-btn {
@@ -268,16 +268,16 @@ header .colmar-title-mobile {
 }
 
 @media only screen and (max-width: 1250px) {
-  .container {
-    width: 100%;
-    display: block;
-  }
   .information-main {
     display: none;
+    border: 0;
   }
   .information-sub {
     width: 100%;
     margin: 2rem 0 0 0;
+  }
+  .article-container {
+    border: 0;
   }
   .article {
     display: block;
@@ -307,6 +307,9 @@ header .colmar-title-mobile {
   }
   .article-text h1, p, a {
     margin: 0 2rem;
+  }
+  .article-active {
+    background-color: white;
   }
 }
 
@@ -362,6 +365,26 @@ header .colmar-title-mobile {
   margin: 0.5rem 0;
 }
 
+@media only screen and (max-width: 1250px) {
+  .data {
+    background-color: white;
+    border-top: 1px solid lightgrey;
+    margin-top: 0.5rem;
+  }
+  .courses {
+    display: none;
+  }
+  .courses-mobile {
+    margin-top: 1rem;
+  }
+  .course-mobile {
+    display: block;
+    background-color: lightgrey;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+}
 
 /*Thesis Section*/
 .thesis .container {
