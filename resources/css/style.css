@@ -10,8 +10,9 @@ html {
   margin: 0 auto;
 }
 
+/*****************************************/
 /*Header Section*/
-
+/*****************************************/
 header {
   background-color: white;
   height: 4rem;
@@ -100,8 +101,9 @@ header .colmar-title-mobile {
 
 }
 
-
+/*****************************************/
 /*Banner Section*/
+/*****************************************/
 .banner {
   padding: 3rem 2rem;
   background-color: lightgrey;
@@ -161,7 +163,6 @@ header .colmar-title-mobile {
     width: 100%;
   }
   .banner-text {
-    /*padding: 2rem 1rem;*/
     margin: 0;
     width: 100%;
   }
@@ -184,7 +185,9 @@ header .colmar-title-mobile {
   }
 }
 
+/*****************************************/
 /*Information Section*/
+/*****************************************/
 .information-main {
   width: 60%;
   padding: 2rem 1.5rem;
@@ -313,8 +316,9 @@ header .colmar-title-mobile {
   }
 }
 
-
+/*****************************************/
 /*Course Section*/
+/*****************************************/
 .data {
   background-color: lightgrey;
 }
@@ -332,7 +336,6 @@ header .colmar-title-mobile {
 
 .courses {
   display: flex;
-  /*align-content: space-between;*/
   justify-content: space-between;
   margin-bottom: 2rem;
 }
@@ -369,7 +372,7 @@ header .colmar-title-mobile {
   .data {
     background-color: white;
     border-top: 1px solid lightgrey;
-    margin-top: 0.5rem;
+    margin: 0.5rem 0 3rem 0;
   }
   .data-title {
     font-size: 4rem;
@@ -391,7 +394,9 @@ header .colmar-title-mobile {
   }
 }
 
+/*****************************************/
 /*Thesis Section*/
+/*****************************************/
 .thesis .container {
   flex-direction: column;
 }
@@ -431,7 +436,32 @@ header .colmar-title-mobile {
 .thesis-articles {
   width: 40%;
 }
+.thesis-mobile {
+  display: none;
+}
+@media only screen and (max-width: 1250px) {
+  .thesis{
+    display: none;
+  }
+  .thesis-mobile {
+    display: block;
+    border-top: 1px solid lightgrey;
+    margin: 3rem 0;
+  }
+  .thesis-title {
+    font-size: 4rem;
+  }
+  .thesis-video {
+    width: 100%;
+  }
+  .thesis-video video {
+    width: 100%
+  }
+}
 
+/*****************************************/
+/*Footer*/
+/*****************************************/
 footer {
   border-top: 1px solid #DDD;
   padding: 1.5rem 2rem;
