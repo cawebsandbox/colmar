@@ -175,7 +175,12 @@ header .colmar-title-mobile {
   }
   .banner-text .banner-btn {
     margin: 0 1rem 2rem 1rem;
+    padding: 2rem 0;
     width: auto;
+  }
+  .banner-text .banner-btn p {
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 }
 
@@ -238,7 +243,7 @@ header .colmar-title-mobile {
   width: 100%;
 }
 
-#info-orient-mobile {
+#info-mobile-img {
   display: none;
 }
 
@@ -272,28 +277,37 @@ header .colmar-title-mobile {
   }
   .information-sub {
     width: 100%;
-    margin: 0;
+    margin: 2rem 0 0 0;
   }
   .article {
     display: block;
-    width: auto;
+    width: 100%;
     margin: 0;
   }
   .article-img {
     width: 100%;
-    margin: 1rem;
+    margin: 0;
   }
   .article-img img {
     width: 100%;
   }
-  #info-orient-desk {
+  #info-desk-img {
     display: none;
   }
-  #info-orient-mobile {
+  #info-mobile-img {
     display: block;
   }
-
-
+  .article-text {
+    width: 100%;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+  }
+  .article-text h1 {
+    font-size: 2.75rem;
+  }
+  .article-text h1, p, a {
+    margin: 0 2rem;
+  }
 }
 
 
