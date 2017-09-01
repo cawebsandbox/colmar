@@ -68,10 +68,14 @@ header .colmar-title-mobile {
   display: none;
 }
 
+/*Only testing on iPhone 6 using Safari and Chrome*/
 @media only screen and (max-width: 1250px) {
   header {
     height: 8rem;
+  }
 
+  .main-container {
+    top: 8rem;
   }
 
   header .colmar-title {
@@ -98,7 +102,6 @@ header .colmar-title-mobile {
 
 
 /*Banner Section*/
-
 .banner {
   padding: 3rem 2rem;
   background-color: lightgrey;
@@ -235,6 +238,10 @@ header .colmar-title-mobile {
   width: 100%;
 }
 
+#info-orient-mobile {
+  display: none;
+}
+
 .article-text {
   width: 60%;
   font-size: 1.25rem;
@@ -254,6 +261,41 @@ header .colmar-title-mobile {
 .article-active {
   background-color: #EEE;
 }
+
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+  .information-main {
+    display: none;
+  }
+  .information-sub {
+    width: 100%;
+    margin: 0;
+  }
+  .article {
+    display: block;
+    width: auto;
+    margin: 0;
+  }
+  .article-img {
+    width: 100%;
+    margin: 1rem;
+  }
+  .article-img img {
+    width: 100%;
+  }
+  #info-orient-desk {
+    display: none;
+  }
+  #info-orient-mobile {
+    display: block;
+  }
+
+
+}
+
 
 /*Course Section*/
 .data {
